@@ -6,7 +6,7 @@ app.get('/', function (req, res) { // Routing to /
 res.send('Hallo! Dies ist der Heroku Test, sie haben ihn bestanden '); })
 
 app.get('/info', function (req, res) { // Routing to /info
-res.send('Hallo! Hier finden sie infos über die Gruppe 22'); })
+res.send('Hallo! Hier finden sie infos über die Gruppe 09'); })
 
 
 var server = app.listen(PORT, function () {
